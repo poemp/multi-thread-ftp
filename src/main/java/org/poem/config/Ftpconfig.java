@@ -7,12 +7,17 @@ import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ *
+ * @author
+ * @since
+ */
 @Setter
 @Getter
 @NoArgsConstructor
 @Component
 @ConfigurationProperties(prefix = "spring.ftp", ignoreUnknownFields = true)
-public class FTPConfig {
+public class Ftpconfig {
 
     @NotNull
     private String url;

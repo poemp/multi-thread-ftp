@@ -130,6 +130,7 @@ public class PutToFtpRunner {
                 //关闭文件流
 //                local.close();
                 //退出
+                ftp.abort()
                 ftp.logout();
                 //断开连接
                 ftp.disconnect();
