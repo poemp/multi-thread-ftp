@@ -1,0 +1,5 @@
+## PropertySource Loaders
+#org.springframework.beans.BeanInfoFactory=org.dsg.config.thread.FtpExecutorService,\
+#  org.dsg.config.FtpConfig,\
+#  org.dsg.job.PutToFtpRunner
+#
