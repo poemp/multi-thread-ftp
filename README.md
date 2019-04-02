@@ -26,6 +26,17 @@
 `````````
 
 # 使用方式
+
+## 加上pom.xml依赖
+````````````
+   <dependency>
+        <groupId>org.dsg</groupId>
+        <artifactId>multi-thread-ftp</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+   </dependency>
+````````````
+
+## 调用
 ````````````
 @Service
 public class PutToFtpRunnerTest {
