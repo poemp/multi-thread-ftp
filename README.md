@@ -32,19 +32,6 @@ public class PutToFtpRunnerTest {
 
     @Autowired
     private PutToFtpRunner putToFtpRunner;
-
-
-    public void ttt(){
-        putToFtpRunner.sendFile();
-    }
-
-    @Autowired
-    private FtpConfig ftpConfig;
-
-    @Test
-    public void sendFile() {
-        putToFtpRunner.sendFile();
-    }
 }
 
 ````````````
